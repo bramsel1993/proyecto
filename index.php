@@ -715,7 +715,7 @@ require_once 'conection.simple.php';
                   <td>
                     <h5><i class="fa fa-square red"></i>Mineral de la Reforma </h5>
                   </td>
-                  <td><h5>30%</h5></td>
+                  <td><h5>40%</h5></td>
                 </tr>
               </table>
             </td>
@@ -816,7 +816,7 @@ require_once 'conection.simple.php';
                     </tr>
                     <tr>
                       <td>Brasil</td>
-                      <td class="fs15 fw700 text-right">10%</td>
+                      <td class="fs15 fw700 text-right">50%</td>
                     </tr>
                   </tbody>
                 </table>
