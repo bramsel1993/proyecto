@@ -1,0 +1,197 @@
+@font-face{
+	font-family: Graphik-Bold;
+	src:url(../fonts/Graphik-Bold.otf);
+}
+@font-face{
+	
+	font-family: Graphik-Medium;
+	src:url(../fonts/Graphik-Medium.otf);
+}
+body{
+	background: #00202F;
+	color:white;
+	text-align: center;
+	
+}
+
+
+header tgrande{
+	color:#515B5C;
+	font-family: Graphik-Bold;
+	font-size: 35px;
+}
+
+header tchico{
+	color:#515B5C;
+	font-family: Graphik-Medium;
+	font-size: 30px;
+}
+p{
+	text-align: center;
+	line-height: 0.5;
+}
+
+h3{
+	color:#515B5C;
+	font-family: Graphik-Bold;
+	font-size: 10px;
+}
+
+
+a{
+	font-size: 20px;
+	text-decoration-color: blue;
+}
+
+
+.jumbotron{
+	background: #002f41;
+	Position: relative;
+    top:0px;
+}
+.caja{
+	width: 100%;
+	padding: 20px 25px 5px 25px;
+	margin: 25px 0px;
+	position: relative;
+	top:;
+	bottom: ;
+	right: ;
+	left: ;
+	background: rgba(255,255,255,.3);
+	border-radius: 7px;
+}
+.centrar{
+	align-content: center;
+}
+.button{
+	align-content: center;
+	justify-content: center;
+	background: #34495e;
+	color: white;
+	display: inline-block;
+	font-size: 1em;
+	margin: 20px;
+	padding: 10px 0px;
+	text-align: center;
+	width: 250px;
+	text-decoration: none;
+	box-shadow: 0px 3px 0px #2c3e50;
+}
+/*colores de botones*/
+.button.turquesa{
+	background: #1abc9c; 
+	box-shadow: 0px 3px 0px #16a085;
+}
+.button.gris{
+	background: #34495e; 
+	box-shadow: 0px 2px 0px #2c3e50;
+
+}
+/*tamaños de botones*/
+.button.chico{
+	width: 100px;
+}
+.button.grande{
+	width: 180px;
+}
+/*efectos de botones*/
+.button.radius{
+	border-radius: 50px;
+	border-bottom-color: #7f8c8d;
+}
+.button:hover{
+	background: #2c3e50;
+	color:white;
+	box-shadow: 0px 0px 0px;
+	padding-top: 5px;
+	box-shadow: 0px 2px 0px #2c3e50;
+}
+
+/*5 tipos de posocionamiento de caja*/
+.box-naranja{
+	/*width: 350px;*/
+	padding: 7px 40px 7px 10px ;
+	background: #e74c3c;
+	color:white;
+	font-size: 11px;
+	color:white;
+	text-align: center;
+	font-family: Gotham-Book;
+}
+
+.box-violeta{
+	/*width: 350px;*/
+	padding: 7px 40px 7px 10px ;
+	background: #9b59b6;
+	color:white;
+	font-size: 11px;
+	color:white;
+	text-align: center;
+	font-family: Gotham-Book;
+}
+@-webkit-keyframes girando {
+	from { -webkit-transform: rotateY(0deg);    }
+	to   { -webkit-transform: rotateY(-360deg); }
+}
+#contenedor {
+	margin: 30px auto;
+	-webkit-perspective: 600px;
+}
+#gadgets {
+	box-shadow: 0px 3px 0px #2c3e50;
+	border-radius: 0px;
+	border-color: white;
+	text-align: center;
+	-webkit-perspective: 400px;
+	-webkit-animation-name: girando;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-duration: 1.3s;
+	-webkit-transform-style: preserve-3d;
+	-webkit-box-shadow: 0px 39px 30px -40px rgba(0,0,0,0.36);
+	-moz-box-shadow: 0px 39px 30px -40px rgba(0,0,0,0.36);
+	box-shadow: 0px 39px 30px -40px rgba(0,0,0,0.36);
+}
+#estatus {
+	box-shadow: 0px 3px 0px #2c3e50;
+	height: 20px;
+	border-radius: 0px;
+	border-color: white;
+	text-align: center;
+	-webkit-perspective: 400px;
+	-webkit-animation-name: girando;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-duration: 1.3s;
+	-webkit-transform-style: preserve-3d;
+	-webkit-box-shadow: 0px 39px 30px -40px rgba(0,0,0,0.36);
+	-moz-box-shadow: 0px 39px 30px -40px rgba(0,0,0,0.36);
+	box-shadow: 0px 39px 30px -40px rgba(0,0,0,0.36);
+}
+#girandologo {
+	align-content: center;
+
+	text-align: center;
+	-webkit-perspective: 400px;
+	-webkit-animation-name: girando;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-duration: 12s;
+	-webkit-transform-style: preserve-3d;
+	
+}
+#sombra {
+
+	-webkit-transform-style: preserve-3d;
+	-webkit-box-shadow: 0px 68px 51px -56px rgba(0,0,0,0.36);
+	-moz-box-shadow: 0px 68px 51px -56px rgba(0,0,0,0.36);
+	box-shadow: 0px 68px 51px -56px rgba(0,0,0,0.36);
+}
+#sombra1 {
+
+	-webkit-transform-style: preserve-3d;
+	-webkit-box-shadow: 0px 39px 30px -40px rgba(0,0,0,0.36);
+	-moz-box-shadow: 0px 39px 30px -40px rgba(0,0,0,0.36);
+	box-shadow: 0px 39px 30px -40px rgba(0,0,0,0.36);
+}

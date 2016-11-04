@@ -1,0 +1,78 @@
+body{
+	background:;
+}
+@font-face{
+	font-family: consola;
+	src:url(../fonts/consola.ttf);
+}
+@-webkit-keyframes girando {
+	from { -webkit-transform: rotateY(0deg);    }
+	to   { -webkit-transform: rotateY(-360deg); }
+}
+#contenedor {
+	margin: 30px auto;
+	-webkit-perspective: 600px;
+}
+#gadgets {
+	box-shadow: 0px 3px 0px #2c3e50;
+	border-radius: 0px;
+	border-color: white;
+	text-align: center;
+	-webkit-perspective: 400px;
+	-webkit-animation-name: girando;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-duration: 1.3s;
+	-webkit-transform-style: preserve-3d;
+	-webkit-box-shadow: 0px 39px 30px -40px rgba(0,0,0,0.36);
+	-moz-box-shadow: 0px 39px 30px -40px rgba(0,0,0,0.36);
+	box-shadow: 0px 39px 30px -40px rgba(0,0,0,0.36);
+}
+#estatus {
+	box-shadow: 0px 3px 0px #2c3e50;
+	height: 20px;
+	border-radius: 0px;
+	border-color: white;
+	text-align: center;
+	-webkit-perspective: 400px;
+	-webkit-animation-name: girando;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-duration: 1.3s;
+	-webkit-transform-style: preserve-3d;
+	-webkit-box-shadow: 0px 39px 30px -40px rgba(0,0,0,0.36);
+	-moz-box-shadow: 0px 39px 30px -40px rgba(0,0,0,0.36);
+	box-shadow: 0px 39px 30px -40px rgba(0,0,0,0.36);
+}
+#girandologo {
+	box-shadow: 0px 3px 0px #2c3e50;
+	border-radius: 0px;
+	border-color: white;
+	text-align: center;
+	-webkit-perspective: 400px;
+	-webkit-animation-name: girando;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-duration: 12s;
+	-webkit-transform-style: preserve-3d;
+	-webkit-box-shadow: 11px 18px 88px -21px rgba(0,0,0,0.27);
+	-moz-box-shadow: 11px 18px 88px -21px rgba(0,0,0,0.27);
+	box-shadow: 11px 18px 88px -21px rgba(0,0,0,0.27);
+}
+#sombra {
+
+	-webkit-transform-style: preserve-3d;
+	-webkit-box-shadow: 0px 68px 51px -56px rgba(0,0,0,0.36);
+	-moz-box-shadow: 0px 68px 51px -56px rgba(0,0,0,0.36);
+	box-shadow: 0px 68px 51px -56px rgba(0,0,0,0.36);
+}
+#sombra1 {
+
+	-webkit-transform-style: preserve-3d;
+	-webkit-box-shadow: 0px 39px 30px -40px rgba(0,0,0,0.36);
+	-moz-box-shadow: 0px 39px 30px -40px rgba(0,0,0,0.36);
+	box-shadow: 0px 39px 30px -40px rgba(0,0,0,0.36);
+}
+h5{
+	font-size: 12px;
+}
